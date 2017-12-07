@@ -29,7 +29,7 @@ pipeline {
         
          stage('Building Master job in Repo2') {
             steps {
-                 build job 'Manoj/Repo2/master'
+                def job = build job: 'Manoj/Repo2/master'
              }
          }
     }
