@@ -28,7 +28,7 @@ pipeline {
         }
         
          stage('Building Master job in Repo2') {
-            steps {
+            steps { 
                 build 'Manoj/Repo2/master'
              }
          }
