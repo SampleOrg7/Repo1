@@ -30,7 +30,7 @@ pipeline {
          stage('Deploy') {
             steps {
         
-         Build Job: 'Manoj/Repo2/master'
+         Build job: 'Manoj/Repo2/master'
              }
          }
     }
