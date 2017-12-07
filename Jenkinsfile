@@ -26,5 +26,12 @@ pipeline {
                 sh 'pwd'
             }
         }
+        
+         stage('Deploy') {
+            steps {
+        
+         Build Job: 'Manoj/Repo2/master'
+             }
+         }
     }
 }
